@@ -38,7 +38,13 @@
     },
     "description": "This component allows the automatic generation of PersistentObject definition files from DatabaseSchema definitions.",
     "homepage": "https://github.com/zetacomponents",
-    "license": "apache2",
+    "license": "Apache-2.0",
     "name": "zetacomponents/persistent-object-database-schema-tiein",
-    "type": "library"
+    "type": "library",
+        "require": {
+            "zetacomponents/base": "*"
+        },
+        "require-dev": {
+            "zetacomponents/unit-test": "*"
+        }
 }
