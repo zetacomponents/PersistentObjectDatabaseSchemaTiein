@@ -41,10 +41,11 @@
     "license": "Apache-2.0",
     "name": "zetacomponents/persistent-object-database-schema-tiein",
     "type": "library",
-        "require": {
-            "zetacomponents/base": "*"
-        },
-        "require-dev": {
-            "zetacomponents/unit-test": "*"
-        }
+    "require": {
+        "zetacomponents/persistent-object": "~1.7",
+        "zetacomponents/database-schema": "~1.4"
+    },
+    "require-dev": {
+        "zetacomponents/unit-test": "*"
+    }
 }
